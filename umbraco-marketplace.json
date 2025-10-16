@@ -1,0 +1,54 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AddOnPackagesRequiredForUmbracoCloud": [],
+  "AlternateCategory": "Editor Tools",
+  "AuthorDetails": {
+    "Name": "Jakob N",
+    "Description": "Back-end Umbraco and .NET developer",
+    "Url": "",
+    "ImageUrl": "https://avatars.githubusercontent.com/u/56038614?v=4",
+    "Contributors": [
+    ],
+    "SyncContributorsFromRepository": true
+  },
+  "Category": "Developer Tools",
+  "Description": "A property editor for date, and date only (C# DateOnly)",
+  "DiscussionForumUrl": "https://github.com/Jay-umbr/umbDateOnlyV16/discussions",
+  "DocumentationUrl": "",
+  "LicenseTypes": [ "Free" ],
+  "IssueTrackerUrl": "https://github.com/Jay-umbr/umbDateOnlyV16/issues",
+  "IsSubPackageOf": "",
+  "PackageType": "Package",
+  "PackagesByAuthor": [],
+  "RelatedPackages": [
+    {
+      "GroupTitle": "",
+      "PackageId": "",
+      "Description": ""
+    }
+  ],
+  "Screenshots": [
+    {
+      "ImageUrl": "https://github.com/Jay-umbr/UmbDateOnly/blob/master/images/dateonly1.png?raw=true",
+      "Caption": "UmbDateOnly property editor in the Content section"
+    },
+    {
+      "ImageUrl": "https://github.com/Jay-umbr/UmbDateOnly/blob/master/images/dateonly2.png?raw=true",
+      "Caption": "Selecting a date via date picker"
+    },
+    {
+      "ImageUrl": "https://github.com/Jay-umbr/UmbDateOnly/blob/master/images/dateonly3.png?raw=true",
+      "Caption": "Customizable date output in the backoffice for editor convenience"
+    }
+  ],
+  "Tags": [ "DateOnly", "DatePicker", "Date Picker" ],
+  "Title": "Umb Date Only",
+  "VersionDependencyMode": "Default",
+  "VersionSpecificPackageIds": [
+    {
+      "UmbracoMajorVersion": 16,
+      "PackageId": "UmbDateOnly"
+    }
+  ],
+  "VideoUrl": ""
+}

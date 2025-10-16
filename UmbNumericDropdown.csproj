@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ContentTargetFolders>.</ContentTargetFolders>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>15.0.0</Version>
+		<PackageId>UmbNumericDropdown</PackageId>
+		<Product>UmbNumericDropdown</Product>
+		<Title>UmbNumericDropdown</Title>
+		<Description>A combo of numeric + dropdown property pickers in Umbraco - makes it easy to select "X amount of Y"</Description>
+		<Authors>Jakob Nawrocki</Authors>
+		<PackageTags>umbraco plugin package umbraco-marketplace dropdown numeric</PackageTags>
+		<PackageProjectUrl>https://github.com/Jay-umbr/UmbNumericDropdown</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Jay-umbr/UmbNumericDropdown</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageIcon>logo.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="logo.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Umbraco.Cms.Core" Version="15.4.4" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="LICENSE" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="App_Plugins\UmbNumericDropdown\**" Pack="true" CopyToPublishDirectory="Always" PackagePath="App_Plugins\UmbNumericDropdown" />
+		<None Include="buildTransitive\**" Pack="true" PackagePath="buildTransitive" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Update="App_Plugins\UmbNumericDropdown\umbraco-package.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="App_Plugins\UmbNumericDropdown\numeric-dropdown.js">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+</Project>

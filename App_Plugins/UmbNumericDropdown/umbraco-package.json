@@ -1,0 +1,42 @@
+{
+  "$schema": "https://docs.umbraco.com/json-schema/umbraco-package-schema.json",
+  "name": "UmbNumericDropdown",
+  "version": "1.0.0",
+  "extensions": [
+    {
+      "type": "propertyEditorUi",
+      "alias": "UmbNumericDropdown",
+      "name": "Numeric with Dropdown",
+      "element": "/App_Plugins/UmbNumericDropdown/numeric-dropdown.js",
+      "elementName": "umb-numeric-dropdown",
+      "meta": {
+        "label": "Numeric with Dropdown",
+        "icon": "icon-autofill",
+        "group": "common",
+        "propertyEditorSchemaAlias": "Umbraco.Plain.Json",
+        "settings": {
+          "properties": [
+            {
+              "alias": "min",
+              "label": "Minimum value",
+              "description": "The minimum integer value allowed (leave empty for no minimum)",
+              "propertyEditorUiAlias": "Umb.PropertyEditorUi.Integer"
+            },
+            {
+              "alias": "max",
+              "label": "Maximum value",
+              "description": "The maximum integer value allowed (leave empty for no maximum)",
+              "propertyEditorUiAlias": "Umb.PropertyEditorUi.Integer"
+            },
+            {
+              "alias": "options",
+              "label": "Dropdown options",
+              "description": "Enter dropdown options, one per line. The first option will be the default.",
+              "propertyEditorUiAlias": "Umb.PropertyEditorUi.MultipleTextString"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
