@@ -12,11 +12,11 @@
     "SyncContributorsFromRepository": true
   },
   "Category": "Developer Tools",
-  "Description": "A property editor for date, and date only (C# DateOnly)",
-  "DiscussionForumUrl": "https://github.com/Jay-umbr/umbDateOnlyV16/discussions",
+  "Description": "A property editor that combines numeric + dropdown into one",
+  "DiscussionForumUrl": "https://github.com/Jay-umbr/UmbNumericDropdown/discussions",
   "DocumentationUrl": "",
   "LicenseTypes": [ "Free" ],
-  "IssueTrackerUrl": "https://github.com/Jay-umbr/umbDateOnlyV16/issues",
+  "IssueTrackerUrl": "https://github.com/Jay-umbr/UmbNumericDropdown/issues",
   "IsSubPackageOf": "",
   "PackageType": "Package",
   "PackagesByAuthor": [],
@@ -28,26 +28,14 @@
     }
   ],
   "Screenshots": [
-    {
-      "ImageUrl": "https://github.com/Jay-umbr/UmbDateOnly/blob/master/images/dateonly1.png?raw=true",
-      "Caption": "UmbDateOnly property editor in the Content section"
-    },
-    {
-      "ImageUrl": "https://github.com/Jay-umbr/UmbDateOnly/blob/master/images/dateonly2.png?raw=true",
-      "Caption": "Selecting a date via date picker"
-    },
-    {
-      "ImageUrl": "https://github.com/Jay-umbr/UmbDateOnly/blob/master/images/dateonly3.png?raw=true",
-      "Caption": "Customizable date output in the backoffice for editor convenience"
-    }
   ],
-  "Tags": [ "DateOnly", "DatePicker", "Date Picker" ],
-  "Title": "Umb Date Only",
+  "Tags": [ "NumericDropdown", "Numeric", "Dropdown" ],
+  "Title": "Umb Numeric Dropdown",
   "VersionDependencyMode": "Default",
   "VersionSpecificPackageIds": [
     {
-      "UmbracoMajorVersion": 16,
-      "PackageId": "UmbDateOnly"
+      "UmbracoMajorVersion": 15,
+      "PackageId": "UmbNumericDropdown"
     }
   ],
   "VideoUrl": ""
