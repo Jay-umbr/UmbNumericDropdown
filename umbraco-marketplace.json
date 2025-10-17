@@ -28,6 +28,18 @@
     }
   ],
   "Screenshots": [
+    {
+      "ImageUrl": "https://github.com/Jay-umbr/UmbNumericDropdown/blob/master/images/numericwithdropdown1.png?raw=true",
+      "Caption": "A convenient way to use measurements"
+    },
+    {
+      "ImageUrl": "https://github.com/Jay-umbr/UmbNumericDropdown/blob/master/images/numericwithdropdown2.png?raw=true",
+      "Caption": "Can be output as a combined value, or Number/Dropdown value separately"
+    },
+    {
+      "ImageUrl": "https://github.com/Jay-umbr/UmbNumericDropdown/blob/master/images/numericwithdropdown3.png?raw=true",
+      "Caption": "Comes with customizable limits & validation"
+    }
   ],
   "Tags": [ "NumericDropdown", "Numeric", "Dropdown" ],
   "Title": "Umb Numeric Dropdown",
