@@ -46,7 +46,7 @@
   "VersionDependencyMode": "Default",
   "VersionSpecificPackageIds": [
     {
-      "UmbracoMajorVersion": 15,
+      "UmbracoMajorVersion": 16,
       "PackageId": "UmbNumericDropdown"
     }
   ],
